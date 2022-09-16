@@ -1,0 +1,24 @@
+﻿@page "/"
+@page "/{CID}"
+
+@inject HttpClient Http
+
+<PageTitle>IPFS Video Streaming</PageTitle>
+
+<h1>@CID</h1>
+
+<video controls autoplay muted src="@Url"></video>
+
+@code {
+
+    public string Url { get; set; } = null!;
+
+    [Parameter]
+    public string CID { get; set; } = null!;
+
+    protected override Task OnInitializedAsync()
+    {
+        Url = $"{Http.BaseAddress}ipfs/{CID}";
+        return base.OnInitializedAsync();
+    }
+}

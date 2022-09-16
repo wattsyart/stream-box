@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamBox.Server", "Server\StreamBox.Server.csproj", "{2D694991-9339-44DA-9DD2-5EA8B0DECF1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StreamBox.Client", "Client\StreamBox.Client.csproj", "{7A4DF322-9481-40BA-846D-5760B9BBDECF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D694991-9339-44DA-9DD2-5EA8B0DECF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D694991-9339-44DA-9DD2-5EA8B0DECF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D694991-9339-44DA-9DD2-5EA8B0DECF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D694991-9339-44DA-9DD2-5EA8B0DECF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A4DF322-9481-40BA-846D-5760B9BBDECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A4DF322-9481-40BA-846D-5760B9BBDECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A4DF322-9481-40BA-846D-5760B9BBDECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A4DF322-9481-40BA-846D-5760B9BBDECF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C08AF0BC-F0F2-4AC7-A0F7-E6941ED41C00}
+	EndGlobalSection
+EndGlobal
